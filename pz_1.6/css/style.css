@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.page{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.logo,.nav_links li,.nav_links li a{
+  font-family:"Montserrat" , sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  background-color: #24252A;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%; 
+  background-color: #24252A;
+
+}
+.header ul{
+  background-color: #24252A;
+}
+
+.logo{
+  cursor: pointer;
+}
+
+.nav_links{
+  list-style: none;
+}
+.nav_links li{
+  display:inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+  color: #0088A9;
+}
+
+footer {
+  padding: 15px 15px;
+  margin-top:auto;
+  text-align: center;
+  font-family:"Montserrat" , sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  background-color:#24252A;
+}
+.content{
+  padding: 2% 5%;
+
+}
+.book_img{
+  max-width: 240px;
+  max-height: 180px;
+  padding: 20px 20px;
+}
+.book_alt {
+  
+  display: flex;
+}
+.description{
+  display: inline-block;
+  padding: 20px 0px;
+}
+.more_button{
+  padding: 20px 20px;
+  list-style:none;
+  font-family:"Montserrat" , sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  float: right;
+  transition: all 0.3s ease 0s;
+}
+.more_button:hover{
+  color: #0088A9;
+}
+
+form  {
+    /* Расположим форму по центру страницы */
+    margin: 0 auto;
+    width: 400px;
+    /* Определим контур формы */
+    
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    
+}
+  
+
+.row{
+    padding:10px 0px;
+}
+form label {
+    /* Определим размер и выравнивание */
+    display: flex;
+    width: auto;
+    
+  }
+  
+form input,
+ form select {
+    /* Убедимся, что все поля имеют одинаковые настройки шрифта
+       По умолчанию в textarea используется моноширинный шрифт */
+    font: 1em sans-serif;
+  
+    /* Определим размер полей */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Стилизуем границы полей */
+    border: 1px solid #999;
+  }
+  
+ form input:focus,
+ form textarea:focus {
+    /* Дополнительная подсветка для элементов в фокусе */
+    border-color: #000;
+  }
+  
+  .row-button{
+      text-align: end;
+      padding: 20px 0px;
+  }
+ form button {
+    
+    padding:5px 15px; 
+    border: 1px solid #999;
+    border-radius: 20px;
+  }
+  
+ form button {
+    /* Этот дополнительный внешний отступ примерно равен расстоянию
+       между текстами-подсказками и текстовыми полями */
+    margin-left: .5em;
+  }
+  .header_form h1{
+    font-family:"Montserrat" , sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  background-color: #24252A;
+  overflow: hidden;
+  
+      
+  }
+  .header_form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%; 
+    background-color: #24252A;
+    border-radius: 1em 1em 0 0;
+  }
+  .content_form{
+      padding:1em;
+      border-radius: 1em;
+  }
+  hr{
+      background-color: red;
+      
+  }
